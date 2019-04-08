@@ -7,7 +7,7 @@ The standard deviation values calculated and used were:
 	MeasuredStdDev_GPSPosXY = .71
 	MeasuredStdDev_AccelXY = .511
 
-!(./v_images/sensor_noise.png)
+![](./v_images/sensor_noise.png)
 
 ## Step 2: Attitude Estimation ##
 
@@ -111,7 +111,7 @@ Here are the values:
 
 Here is how the graphs look:
 
-!(./v_images/error_mag.png)
+![](./v_images/error_mag.png)
 
 ## Step 4: Magnetometer Update ##
 
