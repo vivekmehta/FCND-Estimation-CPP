@@ -7,6 +7,8 @@ The standard deviation values calculated and used were:
 	MeasuredStdDev_GPSPosXY = .71
 	MeasuredStdDev_AccelXY = .511
 
+!(./v_images/sensor_noise.png)
+
 ## Step 2: Attitude Estimation ##
 
 Following change was done for non-linear AttitudeEstimation
@@ -17,6 +19,10 @@ Following change was done for non-linear AttitudeEstimation
 	float predictedPitch = dq.Pitch();
 	float predictedRoll = dq.Roll();
 	ekfState(6) = dq.Yaw();
+
+And the result is:
+
+![Attitude estimation](./v_images/attitude_estimation.png)
 
 ## Step 3: Prediction Step ##
 
